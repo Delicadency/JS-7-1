@@ -7,5 +7,5 @@ function fillElement(value) {
   span.innerText = value;
   const body = document.querySelector("body");
   body.appendChild(span);
-  return "Element " + span.outerHTML;
+  return span.outerHTML;
 }
